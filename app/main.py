@@ -22,3 +22,5 @@ def multiply(c: int, d: int):
 def square(a: int):
 	return {"square": a*a}
 
+def hello (a: int):
+	return {"hello": a}
