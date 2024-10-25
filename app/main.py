@@ -20,7 +20,7 @@ def multiply(c: int, d: int):
     return {"product": c * d}
 @app.get("/square/{a}")
 def square(a: int):
-	return {"square": a*a}
+	return {"sq": a*a}
 
 def hello (a: int):
 	return {"hello": a}
